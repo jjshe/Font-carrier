@@ -1,4 +1,4 @@
-# API
+﻿# API
 
 
 ## 生成一个字体
@@ -131,8 +131,6 @@ font-carrier里面有三种对象font,fontface,glyph。每个对象都有自己�
 * options.types 可选。导出的字体类型默认是 ['ttf','eot','woff','svg']
 
 返回一个对象，包含导出的所有字体的buffer
-
-
 
 
 ### fontface对象

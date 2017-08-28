@@ -1,4 +1,4 @@
-# EXAMPLE
+﻿# EXAMPLE
 
 
 ## 案例一
@@ -7,9 +7,9 @@
 
 ```js
 //创建空白字体，使用svg生成字体
-var font = fontCarrier.create()
-var love = fs.readFileSync('./test/svgs/love.svg').toString()
-var mail = fs.readFileSync('./test/svgs/mail.svg').toString()
+var font = fontCarrier.create();
+var love = fs.readFileSync('./test/svgs/love.svg').toString();
+var mail = fs.readFileSync('./test/svgs/mail.svg').toString();
 
 //使用汉字
 font.setGlyph('爱',{
